@@ -1,0 +1,44 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\OOP2-VEZBANJE\\igraXO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55A086B9-C081-4C0A-8AF6-E3ED09C64E51}|igraXO\\igraXO.csproj|c:\\users\\pc\\desktop\\oop2-vezbanje\\igraxo\\igraxo\\windowigrica.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55A086B9-C081-4C0A-8AF6-E3ED09C64E51}|igraXO\\igraXO.csproj|solutionrelative:igraxo\\windowigrica.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "windowIgrica.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\OOP2-VEZBANJE\\igraXO\\igraXO\\windowIgrica.xaml",
+              "RelativeDocumentMoniker": "igraXO\\windowIgrica.xaml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\OOP2-VEZBANJE\\igraXO\\igraXO\\windowIgrica.xaml",
+              "RelativeToolTip": "igraXO\\windowIgrica.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T05:54:30.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
