@@ -130,20 +130,157 @@ namespace igraXO
 
         private void igraRacunar()
         {
-            foreach (var v in dugmad)
+
+            if (PokusajPobede(Racunar))
             {
-                if (v.Tag.ToString() == "0")
+                return;
+            }
+
+
+            if (PokusajPobede(Igrac))
+            {
+                return;
+            }
+
+           
+            foreach (var button in dugmad)
+            {
+                if (button.Tag.ToString() == "0")
                 {
-                    v.Content = $"{Racunar}";
-                    v.Tag = "1";
+                    button.Content = $"{Racunar}";
+                    button.Tag = "1";
                     break;
                 }
             }
-            if(jeLiKraj() )
+
+            if (jeLiKraj())
             {
                 napraviTablu();
             }
         }
+
+        private bool PokusajPobede(string igrac)
+        {
+            // Provera horizontalnih linija
+            for (int i = 0; i < 3; i++)
+            {
+                if (dugmad[i, 0].Content?.ToString() == igrac &&
+                    dugmad[i, 1].Content?.ToString() == igrac &&
+                    dugmad[i, 2].Content?.ToString() == null)
+                {
+                    dugmad[i, 2].Content = $"{Racunar}";
+                    dugmad[i, 2].Tag = "1";
+                    return true;
+                }
+
+                if (dugmad[i, 0].Content?.ToString() == igrac &&
+                    dugmad[i, 1].Content?.ToString() == null &&
+                    dugmad[i, 2].Content?.ToString() == igrac)
+                {
+                    dugmad[i, 1].Content = $"{Racunar}";
+                    dugmad[i, 1].Tag = "1";
+                    return true;
+                }
+
+                if (dugmad[i, 0].Content?.ToString() == null &&
+                    dugmad[i, 1].Content?.ToString() == igrac &&
+                    dugmad[i, 2].Content?.ToString() == igrac)
+                {
+                    dugmad[i, 0].Content = $"{Racunar}";
+                    dugmad[i, 0].Tag = "1";
+                    return true;
+                }
+            }
+
+            // Provera vertikalnih linija
+            for (int i = 0; i < 3; i++)
+            {
+                if (dugmad[0, i].Content?.ToString() == igrac &&
+                    dugmad[1, i].Content?.ToString() == igrac &&
+                    dugmad[2, i].Content?.ToString() == null)
+                {
+                    dugmad[2, i].Content = $"{Racunar}";
+                    dugmad[2, i].Tag = "1";
+                    return true;
+                }
+
+                if (dugmad[0, i].Content?.ToString() == igrac &&
+                    dugmad[1, i].Content?.ToString() == null &&
+                    dugmad[2, i].Content?.ToString() == igrac)
+                {
+                    dugmad[1, i].Content = $"{Racunar}";
+                    dugmad[1, i].Tag = "1";
+                    return true;
+                }
+
+                if (dugmad[0, i].Content?.ToString() == null &&
+                    dugmad[1, i].Content?.ToString() == igrac &&
+                    dugmad[2, i].Content?.ToString() == igrac)
+                {
+                    dugmad[0, i].Content = $"{Racunar}";
+                    dugmad[0, i].Tag = "1";
+                    return true;
+                }
+            }
+
+            // Provera dijagonala
+            if (dugmad[0, 0].Content?.ToString() == igrac &&
+                dugmad[1, 1].Content?.ToString() == igrac &&
+                dugmad[2, 2].Content?.ToString() == null)
+            {
+                dugmad[2, 2].Content = $"{Racunar}";
+                dugmad[2, 2].Tag = "1";
+                return true;
+            }
+
+            if (dugmad[0, 0].Content?.ToString() == igrac &&
+                dugmad[1, 1].Content?.ToString() == null &&
+                dugmad[2, 2].Content?.ToString() == igrac)
+            {
+                dugmad[1, 1].Content = $"{Racunar}";
+                dugmad[1, 1].Tag = "1";
+                return true;
+            }
+
+            if (dugmad[0, 0].Content?.ToString() == null &&
+                dugmad[1, 1].Content?.ToString() == igrac &&
+                dugmad[2, 2].Content?.ToString() == igrac)
+            {
+                dugmad[0, 0].Content = $"{Racunar}";
+                dugmad[0, 0].Tag = "1";
+                return true;
+            }
+
+            if (dugmad[0, 2].Content?.ToString() == igrac &&
+                dugmad[1, 1].Content?.ToString() == igrac &&
+                dugmad[2, 0].Content?.ToString() == null)
+            {
+                dugmad[2, 0].Content = $"{Racunar}";
+                dugmad[2, 0].Tag = "1";
+                return true;
+            }
+
+            if (dugmad[0, 2].Content?.ToString() == igrac &&
+                dugmad[1, 1].Content?.ToString() == null &&
+                dugmad[2, 0].Content?.ToString() == igrac)
+            {
+                dugmad[1, 1].Content = $"{Racunar}";
+                dugmad[1, 1].Tag = "1";
+                return true;
+            }
+
+            if (dugmad[0, 2].Content?.ToString() == null &&
+                dugmad[1, 1].Content?.ToString() == igrac &&
+                dugmad[2, 0].Content?.ToString() == igrac)
+            {
+                dugmad[0, 2].Content = $"{Racunar}";
+                dugmad[0, 2].Tag = "1";
+                return true;
+            }
+
+            return false;
+        }
+
 
         private bool jeLiKraj()
         {

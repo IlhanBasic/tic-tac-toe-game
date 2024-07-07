@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\OOP2-VEZBANJE\\igraXO\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\GitHubProject\\igraXO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55A086B9-C081-4C0A-8AF6-E3ED09C64E51}|igraXO\\igraXO.csproj|c:\\users\\pc\\desktop\\oop2-vezbanje\\igraxo\\igraxo\\windowigrica.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{55A086B9-C081-4C0A-8AF6-E3ED09C64E51}|igraXO\\igraXO.csproj|c:\\users\\pc\\desktop\\githubproject\\igraxo\\igraxo\\windowigrica.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A086B9-C081-4C0A-8AF6-E3ED09C64E51}|igraXO\\igraXO.csproj|solutionrelative:igraxo\\windowigrica.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A086B9-C081-4C0A-8AF6-E3ED09C64E51}|igraXO\\igraXO.csproj|c:\\users\\pc\\desktop\\githubproject\\igraxo\\igraxo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A086B9-C081-4C0A-8AF6-E3ED09C64E51}|igraXO\\igraXO.csproj|solutionrelative:igraxo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A086B9-C081-4C0A-8AF6-E3ED09C64E51}|igraXO\\igraXO.csproj|c:\\users\\pc\\desktop\\githubproject\\igraxo\\igraxo\\windowigrica.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{55A086B9-C081-4C0A-8AF6-E3ED09C64E51}|igraXO\\igraXO.csproj|solutionrelative:igraxo\\windowigrica.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -14,27 +22,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "windowIgrica.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\GitHubProject\\igraXO\\igraXO\\windowIgrica.xaml.cs",
+              "RelativeDocumentMoniker": "igraXO\\windowIgrica.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\GitHubProject\\igraXO\\igraXO\\windowIgrica.xaml.cs",
+              "RelativeToolTip": "igraXO\\windowIgrica.xaml.cs",
+              "ViewState": "AQIAAAkBAAAAAAAAAAAowBoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T20:44:10.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\GitHubProject\\igraXO\\igraXO\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "igraXO\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\GitHubProject\\igraXO\\igraXO\\MainWindow.xaml.cs",
+              "RelativeToolTip": "igraXO\\MainWindow.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAYwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T20:43:17.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "windowIgrica.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\OOP2-VEZBANJE\\igraXO\\igraXO\\windowIgrica.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\GitHubProject\\igraXO\\igraXO\\windowIgrica.xaml",
               "RelativeDocumentMoniker": "igraXO\\windowIgrica.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\OOP2-VEZBANJE\\igraXO\\igraXO\\windowIgrica.xaml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\GitHubProject\\igraXO\\igraXO\\windowIgrica.xaml",
               "RelativeToolTip": "igraXO\\windowIgrica.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-13T05:54:30.544Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
